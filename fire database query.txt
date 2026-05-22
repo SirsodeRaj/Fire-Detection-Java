@@ -1,0 +1,26 @@
+create database fire
+use fire
+drop database fire1
+create table fire
+(
+name varchar(30),
+id int unique,
+email varchar(30),
+fdate datetime
+);
+
+truncate table fire
+drop table fire
+select * from fire
+
+create table images(
+id int auto_increment primary key,
+image longblob,
+d datetime);
+ select d ='2024-03-15 12:47:58' from images 
+ SELECT image FROM images where d='2024-03-15 12:47:58'
+ 
+ truncate table images
+ drop table images
+select *from images
+
